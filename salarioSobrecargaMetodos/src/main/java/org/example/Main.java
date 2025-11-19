@@ -32,7 +32,7 @@ public class Main
             System.out.println("1. salario a termino indefinido ");
             System.out.println("2. Salario por prestacion de servicios ");
             System.out.println("3. Salario Integral ");
-            System.out.println("4. Salair del menu ");
+            System.out.println("4. Salir del menu ");
             System.out.print("Seleccione una opcion entre 1 y 4: ");
             opcion = scanner.nextByte();
 
