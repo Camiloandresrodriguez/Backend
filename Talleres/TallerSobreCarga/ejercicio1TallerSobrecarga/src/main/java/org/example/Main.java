@@ -68,6 +68,10 @@ public class Main
                 break;
 
                 case 4:
+                    System.out.print("Digite el porcentaje del descuento: ");
+                    descuento = scanner.nextFloat();
+                    System.out.print("Digite el porcentaje del iva: ");
+                    iva = scanner.nextDouble();
                     valorNeto = operaciones.calcularValorNeto(descuento,iva);
                     System.out.println("El valor neto con el descuento y con el iva es: "+valorNeto);
                 break;
