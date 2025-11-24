@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.xml.crypto.dom.DOMCryptoContext;
 import java.util.Scanner;
 
 public class Main
@@ -16,7 +15,7 @@ public class Main
         valorGalon = scanner.nextFloat();
     }
 
-    static void main(String[] args)
+    public static void main(String[] args)
     {
         float valorNeto;
         byte opcion;

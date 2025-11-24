@@ -1,8 +1,8 @@
 package org.example;
 
-public class Cali extends Gasolina
+public class Medellin extends Gasolina
 {
-    public Cali(float valorGalon, float cantidadGalon)
+    public Medellin(float valorGalon, float cantidadGalon)
     {
         super(valorGalon, cantidadGalon);
     }
@@ -10,7 +10,7 @@ public class Cali extends Gasolina
     @Override
     public float calcularValorTanquear()
     {
-        float valorNeto = valorGalon * cantidadGalon + (cantidadGalon * 1200);
+        float valorNeto = cantidadGalon * valorGalon * 1.1f;
         return valorNeto;
     }
 }
